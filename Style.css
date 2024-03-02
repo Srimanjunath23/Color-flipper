@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.Color-fliiper{
+    border:5px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: #ffbd03;
+    border-radius: 20px;
+    
+    
+    
+}
+.simple-hex{
+    border:5px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color:  #4681f4;
+    border-radius: 20px;
+}
+.overall{
+   padding-left: 40%;
+}
+.simple-hex p{
+    position: relative;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,50%);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    ;
+    
+}
+
+.Color-fliiper p{
+    position: relative;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+}
+a{
+    text-decoration:none;
+}
+body{
+    animation-name: bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bg{
+    0%{
+        background-color:red;
+    }
+    25%{
+        background-color:green;
+    }
+    50%{
+        background-color:blue;
+    }
+    100%{
+        background-color:#5dbea3;
+    }
+}
+
